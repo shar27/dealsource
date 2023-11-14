@@ -1,6 +1,6 @@
 // Get a reference to the form element
 const contactForm = document.getElementById("contactForm");
-
+const successMessage = document.getElementById("form-message-success")
 // Add a submit event listener to the form
 contactForm.addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent the default form submission
@@ -23,6 +23,7 @@ contactForm.addEventListener("submit", function(event) {
   // Send the email
   emailjs.send("service_go85cgq", "template_zjh82na", templateParams)
     .then(function(response) {
+      successMessage.style.display = "block"
       console.log("Email sent successfully!", response);
       // You can add success message or redirect here
     }, function(error) {
