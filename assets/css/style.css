@@ -547,6 +547,11 @@ hr {
   margin: 0;
 }
 
+
+img{
+  width:100%;
+}
+
 /* line 279, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .btn::before {
   content: "";
@@ -4648,6 +4653,10 @@ hero-btn {
 /* line 6, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-logo {
   margin-bottom: 30px;
+}
+
+.logo{
+width:100%;
 }
 
 /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
