@@ -20,8 +20,10 @@
 
  
 /* small mobile :320px. */
-@media (max-width: 767px) {
-
+@media  (min-width: 300px) and (max-width: 500px) {
+.logo-small{
+    display:none !important;
+}
  
 }
  
